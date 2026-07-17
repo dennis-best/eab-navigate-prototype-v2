@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>EAB Prototype Demos</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="EAB Global Inc." />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="EAB Prototype Demos" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <style id="hip-fouc-guard">
+      body:not([x-hif="initialized"]) main#app,
+      body:not([x-hif="initialized"]) yi-view-footer,
+      body:not([x-hif="initialized"]) .iface-index__page { visibility: hidden; }
+    </style>
+    <script
+      src="https://cdn.dev.eab.com/hif/latest/index.js"
+      auto-start
+      release="prod"
+      system-load-core
+      system-load-baseline
+      system-load-ds
+    ></script>
+  </head>
+  <body class="iface-index">
+    <div class="unset iface-index__page">
+      <header class="iface-index__header">
+        <hi-eab size="large" disallow-animation class="iface-index__eab"></hi-eab>
+        <h1 class="iface-index__title">EAB Prototype Demos</h1>
+        <p class="iface-index__subtitle">
+          Static prototype demos built for EAB, each recreating a real product
+          recording as a working, click-through experience.
+        </p>
+      </header>
+
+      <div class="iface-index__table-wrap">
+        <table class="iface-index__table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Prototype</th>
+              <th>POC video</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Staff Home</td>
+              <td class="iface-index__desc" data-scenario-desc="staff-home"></td>
+              <td>
+                <a class="iface-link" href="demos/navigate-app.html">View</a>
+              </td>
+              <td>
+                <a class="iface-link" href="demos/proof-of-concept.html">View</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Student Onboarding</td>
+              <td class="iface-index__desc" data-scenario-desc="student-onboarding"></td>
+              <td>
+                <a class="iface-link" href="demos/student-onboarding.html">View</a>
+              </td>
+              <td>
+                <a class="iface-link" href="demos/student-onboarding-proof-of-concept.html">View</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Student Generated Alerts</td>
+              <td class="iface-index__desc" data-scenario-desc="student-generated-alerts"></td>
+              <td>
+                <a class="iface-link" href="demos/student-onboarding.html?login=pulse-check">View</a>
+              </td>
+              <td>
+                <a class="iface-link" href="demos/student-alerts-proof-of-concept.html">View</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Campaign Overview</td>
+              <td class="iface-index__desc" data-scenario-desc="campaign-overview"></td>
+              <td>
+                <a class="iface-link" href="demos/navigate-app.html?view=campaigns">View</a>
+              </td>
+              <td><span class="iface-na">N/A</span></td>
+            </tr>
+            <tr>
+              <td>Application Management</td>
+              <td class="iface-index__desc" data-scenario-desc="application-management"></td>
+              <td>
+                <a class="iface-link" href="demos/application-management.html">View</a>
+              </td>
+              <td><span class="iface-na">N/A</span></td>
+            </tr>
+            <tr>
+              <td>Advisor 101</td>
+              <td class="iface-index__desc" data-scenario-desc="advisor-101"></td>
+              <td>
+                <a class="iface-link" href="demos/navigate-app.html?view=advisor-101">View</a>
+              </td>
+              <td><span class="iface-na">N/A</span></td>
+            </tr>
+            <tr>
+              <td>Staff Powered Alerts</td>
+              <td class="iface-index__desc" data-scenario-desc="staff-powered-alerts"></td>
+              <td>
+                <a class="iface-link" href="demos/navigate-app.html?view=staff-powered-alerts">View</a>
+              </td>
+              <td><span class="iface-na">N/A</span></td>
+            </tr>
+            <tr>
+              <td>AI Automated Alerts</td>
+              <td class="iface-index__desc" data-scenario-desc="ai-automated-alerts"></td>
+              <td>
+                <a class="iface-link" href="demos/navigate-app.html?view=ai-automated-alerts">View</a>
+              </td>
+              <td><span class="iface-na">N/A</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <link rel="stylesheet" href="unset.css" />
+    <link rel="stylesheet" href="interface.css" />
+    <script src="demos/scenarios.js"></script>
+  </body>
+</html>
