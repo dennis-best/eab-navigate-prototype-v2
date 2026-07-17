@@ -1,10 +1,11 @@
-# Local capture library (WebScrapBook, kb-design, etc.) — not versioned
+# macOS
+.DS_Store
+
+# Local Cursor config
+.cursor/
+
+# Local capture library (WebScrapBook, kb-design, videos, etc.)
 Resources/
 
 # Working process notes — local only
 PROTOTYPE-PROCESS-LOG.md
-
-# EAB Demo Builder (auto-managed, do not edit by hand)
-.cursor/eab-demo-builder/node_modules/
-.cursor/skills/demo-build/
-.cursor/commands/demo-*.md
