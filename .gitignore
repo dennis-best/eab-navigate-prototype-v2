@@ -1,0 +1,10 @@
+# Local capture library (WebScrapBook, kb-design, etc.) — not versioned
+Resources/
+
+# Working process notes — local only
+PROTOTYPE-PROCESS-LOG.md
+
+# EAB Demo Builder (auto-managed, do not edit by hand)
+.cursor/eab-demo-builder/node_modules/
+.cursor/skills/demo-build/
+.cursor/commands/demo-*.md
